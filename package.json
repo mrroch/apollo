@@ -1,0 +1,28 @@
+{
+    "name": "apollo",
+    "version": "1.0.0",
+    "description": "apollo_psd_project",
+    "main": "scripts.js",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mrroch/apollo.git"
+    },
+    "keywords": [
+    "apollo"
+  ],
+    "author": "Michal_Roch",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mrroch/apollo/issues"
+    },
+    "homepage": "https://github.com/mrroch/apollo#readme",
+    "devDependencies": {
+        "webpack": "^3.5.5"
+    }
+    "scripts": {
+        "start": "webpack --config webpack.config.js"
+    }
+}
